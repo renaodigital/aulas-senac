@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-block-end: 940px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1 {
+    font-style: bold;
+    color: #3D3D3D;
+    background-color: #E1EDF2;
+    margin-top: 10px;
+}
+
+img {
+    align-items: center;
+}
+
+h3 {
+    align-items: center;
+    border-color: whitesmoke
+}
+
