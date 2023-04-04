@@ -3,6 +3,11 @@ body {
     margin-block-end: 940px;
     margin-left: 20%;
     margin-right: 20%;
+    background-color: #000000;
+}
+
+#logo {
+    margin-left: 20%;
 }
 
 h1 {
@@ -14,10 +19,21 @@ h1 {
 
 img {
     align-items: center;
+    border-radius: 1px;
+    border-color: aquamarine;
 }
 
 h3 {
     align-items: center;
     border-color: whitesmoke
+}
+
+.menu {
+    text-align: right;
+    list-style: flex;
+    display: inline;
+    background-color: blue;
+    color: white;
+
 }
 
