@@ -22,6 +22,29 @@
 .cabecalho_menu a {
     display: inline-block;
     padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    margin-top: 10px 20px 0 0;
+    background-color: #00000083;
+    color: white;
 }
 
+.cabecalho_conteudo {
+    text-align: center;
+    margin-top: 150px;
+}
 
+.cabecalho_conteudo h1 {
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 3px 4px 7px #000;
+}
+
+<!-- link text-shadow --!>
+https://www.w3schools.com/cssref/css3_pr_text-shadow.php
+
+
+<!-- link inscricao github education --!>
+https://education.github.com/partner_school_applications/apply
+https://support.github.com/contact/campus-program
