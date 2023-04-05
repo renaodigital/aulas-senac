@@ -42,6 +42,15 @@
     margin-bottom: 20px;
 }
 
+.cabecalho_conteudo p {
+    color: #fff;
+    background-color: #00000083;
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+
 <!-- link text-shadow --!>
 https://www.w3schools.com/cssref/css3_pr_text-shadow.php
 
