@@ -1,22 +1,23 @@
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.menu{
+.menu {
     margin: 0; padding: 0;
     float: left;
     
   
  
 }
-.menu ul li{
+.menu ul li {
     margin: 0; padding: 10px 0px;
 border-bottom: 1px solid #CCC;
 text-align: left;
 list-style-type: none;
 }
-main{
+
+main {
     float: right;
     margin-left: 100px;
     width: 70%;
