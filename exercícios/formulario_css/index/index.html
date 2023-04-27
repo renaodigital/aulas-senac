@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloindex.css">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <p>Um formulário é usado para coletar informações de entrada. Os dados informados pelo usuário são geralmente enviados a um servidor para o processamento</p>
+    <p>Exemplo:</p>
+<pre> <!--Código de exemplo da criação de um formulário-->
+&lt;form action="#">
+    &lt;label for="nome"> Nome:&lt;/label> &lt;br>
+    &lt;input type="text" id="nome" name="nome">&lt;br>
+    &lt;label for="snome">Sobrenome:&lt;/label> &lt;br>
+    &lt;input type="text" id="snome" name="snome">&lt;br>&lt;br>
+    &lt;input type="submit" value="Enviar">
+&lt;/form> 
+</pre>
+<!--Criando um Formulário simples-->
+    <form action="#" class="form1">
+        <label for="nome">Nome:</label> <br>
+        <input type="text" name="nome" id="nome"> <br>
+        <label for="snome">Sobrenome:</label> <br>
+        <input type="text" name="snome" id="snome"> <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Elementos</h2>
+    <p><strong>Form</strong>: usado para criar um formulário em HTML.</p>
+    <p><strong>Label:</strong> é uma espécie de etiqueta. Muito útil para leitores de tela, já que o leitor de tela lerá o rótulo/etiqueta em voz alta. Também ajuda usuários que tem dificuldade em clicar em regiões muito pequenas (por exemplo os botões de radio ou checkbox. O atributo <strong>for</strong> da tag label deve ser igual ao atributo <strong>id</strong> do elemento <strong>input</strong> para poder uni-los.</p>
+    <p><strong>Input:</strong> o input pode ser exibido e várias maneiras, dependendo do atributo <strong>type</strong>. Por padrão seu type é <strong>text</strong></p>
+    <p><strong>Select:</strong> define uma lista suspensa. Acompanhado do elemento &lt;option&gt;, que define uma opção que pode ser selecionada. Por padrão o primeiro item da lista é o selecionado. Para definir uma opção pré-selecionada, usamos o atributo <strong>selected</strong>. O atributo <strong>size</strong> serve para especificar a quantidade de valores visíveis na lista e o atributo <strong>multiple</strong> permite que o usuário selecione mais de um item.</p>
+    <p><strong>Textarea:</strong> define um campo de entrada multilinhas/área de texto. Possui os atributos <strong>rows</strong> e <strong>cols</strong> que especificam a quantidade de linhas e colunas visíveis respectivamente.</p>
+    <p><strong>Fieldset e Legend:</strong> Fieldset é usado para agrupar dados relacionados em um formulário e o legend define uma legenda para o fieldset.</p>
+    <h2>Tipos de entrada</h2>
+    <p>O elemento input possui diferentes tipos de entrada:</p>
+    <ul>
+        <li><strong>Text</strong>: define um campo de entrada de linha única;</li>
+        <li><strong>Password:</strong> define um campo de senha;</li>
+        <li><strong>Submit:</strong> botão para enviar os dados do formulário;</li>
+        <li><strong>Reset:</strong> botão para limpar os valores preenchidos no formulário;</li>
+        <li><strong>Radio:</strong> botão de opções que permite que o usuário selecione <span class="destaque">apenas</span> uma opção. Exemplo: Sexo F ou M;</li>
+        <li><strong>Checkbox:</strong> define uma caixa de seleção que permite que o usuário selecione <span class="destaque">zero</span> ou <span class="destaque">mais</span> opções de escolha;</li>
+        <li><strong>Date:</strong> é usado para campos que contém datas. Podemos usar os atributos min e max para adicionar restrições às datas;</li>
+        <li><strong>Email:</strong> usados para campos de entrada que contém email;</li>
+        <li><strong>File:</strong> define um campo de seleção de arquivo e um botão de "procurar" para fazer uploads de arquivos;</li>
+        <li><strong>Number:</strong> define um campo de entrada numérica;</li>
+        <li><strong>Tel:</strong>usado para campos de entrada que devem conter número de telefone.</li>
+    </ul>
+    <p>Para ver esses exemplos na prática <a href="exemplos.html">clique aqui!</a></p>
+
+</body>
+</html>
